@@ -1,3 +1,42 @@
+/* Background img on the body
+  Fill the whole screen + keep aspect ratio */
 body{
   text-align: center;
+  background-image: url(img/simcity.jpg);
+  background-size : cover;
+  background-attachment: fixed;
+}
+main{
+  background-color: black;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0.5em;
+}
+
+p{
+  color: white;
+}
+.exploded {
+  background-image: url(img/explosion.jpg);
+}
+.unexploded {
+  background-image: url(img/simcity.jpg);
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
+
+#timertext{
+  font-size: x-large;
+}
+
+main div:nth-child(3){
+  padding: 0.5em;
 }
